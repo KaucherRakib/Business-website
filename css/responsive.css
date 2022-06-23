@@ -1,0 +1,337 @@
+
+@media(min-width: 576px) and (max-width: 767px){
+
+  
+}
+
+
+@media(min-width: 576px) and (max-width: 991px){
+#top_header01 .top_header_right ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+
+#nav_section .offcanvas {
+  background-color: #0069aa;
+  width: 50%;
+}
+
+
+/* banner part responsive */
+#banner {
+height: 550px;
+}
+.banner_cnt{
+  padding-left: 50px;
+}
+#banner .banner_cnt h1{
+  font-size: 68px;
+}
+#banner .banner_cnt h5{
+  font-size: 24px;
+}
+
+/* search part responsive */
+#search{
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  }
+  #search input{
+  width: 400px;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  padding-right: 25px;
+  }
+  #search button{
+  padding: 0px 10px;
+  height: 30px;
+  font-size: 16px;
+  
+  }
+  
+  #search span{
+  margin-left: -25px;
+  padding-right: 10px;
+  font-size: 16px;
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* text and image */
+#text_section{
+clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+padding-bottom: 30px;
+}
+
+.left_image img {
+ height: 400px;
+ width: 335px;
+}
+.left_image {
+   text-align: center;
+ }
+
+#text_section .right_text p {
+font-size: 16px;
+padding: 0px 10px;
+margin-top: 20px;
+line-height: 24px;
+
+}
+
+#text_section .right_text li {
+font-size: 16px;
+margin-left: 30px;
+padding: 0px 10px;
+line-height: 24px;
+}
+
+/* footer part responsive */
+#footer {
+margin-top: 0px;
+padding-top: 100px;
+background-color: #0069aa;
+clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+color: #fff;
+}
+
+
+#events{
+  display: none;
+}
+
+.footer_items1{
+  padding-left: 0px;
+  }
+
+.footer_items3{
+padding-left: 0px;
+}
+
+#footer .footer_items3 ul {
+	margin-left: 0px;
+}
+
+.footer_items3{
+margin-top: 30px;
+}
+
+#footer .footer_items4 ul {
+text-align: left;
+margin-top: 20px;
+}
+#footer .footer_items4 ul li{
+ margin: 0px 5px;
+  }
+
+#footer .footer_copyright p {
+font-size: 16px;
+}
+
+
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+
+#events2{
+  display: none;
+}
+
+#nav_section .navbar a {
+    padding-left: 60px;
+}
+
+
+  /* search part responsive */
+  #search{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    }
+    #search input{
+    width: 600px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    padding-right: 25px;
+    }
+
+    #search button{
+    padding: 0px 10px;
+    height: 30px;
+    font-size: 16px;
+    
+    }
+    
+    #search span{
+    margin-left: -25px;
+    padding-right: 10px;
+    font-size: 16px;
+    
+    }
+
+
+/* image section */
+#image_section .image_item{
+  margin: 0px 0px;
+}
+
+/* news section */
+#news .news_items .news_column {
+  padding: 5px 0px;
+
+}
+
+#news .news_items span{
+  margin-top: 0px;
+  padding-bottom:50px;
+}
+
+
+
+
+  /* footer part responsive */
+#footer {
+  margin-top: 0px;
+  padding-top: 200px;
+  background-color: #0069aa;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+  color: #fff;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media(min-width: 1200px){
+  #events2{
+    display: none;
+  }
+}
+
+
+/* mobile device responsive */
+@media(max-width: 575px){
+
+#nav_section{
+display: none;
+}
+#top_header01{
+  display: none;
+}
+
+/* banner part responsive */
+#banner{
+ 	height: 400px;
+}
+
+#banner .banner_cnt h1{
+ font-size: 48px;
+ text-align: center;
+}
+
+#banner .banner_cnt h5{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+ }
+
+
+/* search part responsive */
+#search{
+  margin-top: 30px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+#search input{
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  padding-right: 25px;
+}
+#search button{
+  padding: 0px 10px;
+  height: 30px;
+  font-size: 16px;
+  
+}
+
+#search span{
+  margin-left: -25px;
+  padding-right: 10px;
+  font-size: 16px;
+
+}
+
+
+
+/* image section responsive */
+#image_section{
+  display: none;
+}
+
+#events{
+  display: none;
+}
+
+/* update news responsive */
+#news{
+  display: none;
+}
+
+/* footer part responsive */
+#footer{
+  display: none;
+}
+
+
+
+}
+
+@media(min-width: 575px){
+#mobile_footer{
+    display: none;
+}
+#news_and_update{
+  display: none;
+}
+#applicants_image{
+  display: none;
+}
+
+#mobile_nav_section{
+  display: none;
+}
+
+}
